@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши заборы | Заборы под ключ</title>
+    <link rel="icon" href="favicon.ico"> <!-- 32×32 -->
+    <link rel="apple-touch-icon" href="images/favicons/apple-icon.png">  <!-- 180×180 -->
+    <link rel="stylesheet" href="https:cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="bootstrap.min.css">-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Установка заборов под ключ</h1>
+        <p>Надежные и качественные заборы для вашего участка</p>
+    </header>
+    
+    <div class="container mt-4">
+        <section class="about p-4 bg-white rounded shadow">
+            <h2>О нас</h2>
+            <p>Мы профессионально занимаемся установкой заборов различного типа. Работаем быстро, качественно и по доступным ценам.</p>
+            <p>Выезд замерщика — БЕСПЛАТНО (при подписании договора)</p>
+        </section>
+        
+        <section class="services p-4 bg-white rounded shadow mt-4">
+            <h2>Наши услуги</h2>
+            <div class="accordion" id="fenceTypes">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Профнастил
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#fenceTypes">
+                        <div class="accordion-body">
+                            <p>Профнастил — это прочный и долговечный материал, идеально подходящий для ограждений.</p>
+                            <img src="images/profnastil.jpg" alt="Профнастил" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Сетка-рабица
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#fenceTypes">
+                        <div class="accordion-body">
+                            <p>Сетка-рабица — экономичный вариант, обеспечивающий хорошую видимость и вентиляцию.</p>
+                            <img src="images/rabitsa.jpg" alt="Сетка-рабица" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Деревянные заборы
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#fenceTypes">
+                        <div class="accordion-body">
+                            <p>Деревянные заборы придают участку эстетичный вид и натуральность.</p>
+                            <img src="images/wood_fence.jpg" alt="Деревянные заборы" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Бетонные ограждения
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#fenceTypes">
+                        <div class="accordion-body">
+                            <p>Бетонные ограждения — прочные, долговечные и устойчивые к погодным условиям.</p>
+                            <img src="images/concrete_fence.jpg" alt="Бетонные ограждения" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact p-4 bg-white rounded shadow mt-4">
+            <h2>Свяжитесь с нами</h2>
+            <p><strong>Телефон:</strong> <a href="tel:+78009009090">+7 (800) 900-90-90</a></p>
+            <p><strong>Email:</strong> <a href="info@zabory-vashgorod.ru?subject=Вопрос%20по%20забору&body=Здравствуйте!">info@zabory-vashgorod.ru</a></p>
+        </section>
+    </div>
+    
+    <footer id="footer" class="bg-dark text-white text-center py-3 mt-4">
+
+        <p>&copy; <span id="currentYear">2007</span> Наши заборы. Все права защищены.</p>
+    </footer>
+    <script src="https:cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
