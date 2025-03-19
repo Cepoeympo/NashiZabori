@@ -26,7 +26,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
-    /*background-image: url(images/denim.webp);*/
+    /*background-image: url(images/tweed.webp);*/
 }
 
 section {
@@ -70,4 +70,9 @@ footer {
 .mrGray:active {
     opacity: 0.2;
     text-decoration: none;
+}
+
+::selection {
+    color: black;
+    background: #a8afb9;
 }
