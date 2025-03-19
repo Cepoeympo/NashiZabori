@@ -1,34 +1,13 @@
 
 :root, [data-bs-theme=light] {
     --bs-dark-rgb: 51, 57, 64; /*primary*/
-}
-/*
-.accordion {
-    --bs-accordion-active-bg: #fff;
-}
-*/
-.accordion-button:not(.collapsed)::after {
-    flex-shrink: 0;
-    width: var(--bs-accordion-btn-icon-width);
-    height: var(--bs-accordion-btn-icon-width);
-    margin-left: auto;
-    content: "";
-    background-image: var(--bs-accordion-btn-icon);
-    background-repeat: no-repeat;
-    background-size: var(--bs-accordion-btn-icon-width);
-    transition: var(--bs-accordion-btn-icon-transition);
+    --bs-primary-bg-subtle: #a8afb9; /*accordion*/
+    /*--bs-accordion-active-bg: 191, 204, 223 !important; /*accordion*/
 }
 
-.accordion-button::after {
-    flex-shrink: 0;
-    width: var(--bs-accordion-btn-icon-width);
-    height: var(--bs-accordion-btn-icon-width);
-    margin-left: auto;
-    content: "";
-    background-image: var(--bs-accordion-btn-icon);
-    background-repeat: no-repeat;
-    background-size: var(--bs-accordion-btn-icon-width);
-    transition: var(--bs-accordion-btn-icon-transition);
+.accordion-button:focus {
+    border: none !important;
+    box-shadow: none !important;
 }
 
 body {
@@ -37,6 +16,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    /*background-image: url(images/dot-grid.webp);*/
+    background-image: url(images/leaves.webp);
+    background-attachment: fixed;
 }
 
 header {
@@ -44,6 +26,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    /*background-image: url(images/denim.webp);*/
 }
 
 section {
